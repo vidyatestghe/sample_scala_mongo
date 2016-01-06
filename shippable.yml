@@ -1,7 +1,14 @@
 language: scala
 
+build_image: drydock/u14scaall:tip
+
+archive: true
+
 scala:
-  - 2.11.0
+    - 2.11.0
+    - 2.11.6
+    - 2.10.5
+    - 2.9.3
 
 services:
   - mongodb
